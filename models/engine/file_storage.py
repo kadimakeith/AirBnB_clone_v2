@@ -66,6 +66,6 @@ class FileStorage:
                 del self.__objects[key]
                 self.save()
 
-    def close(self)
+    def close(self):
         """Call the reload method"""
         self.reload()
